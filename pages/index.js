@@ -5,10 +5,6 @@ import LotteryEntrance from "../components/LotteryEntrance"
 import { useMoralis } from "react-moralis"
 
 export default function Home() {
-    function f() {
-        const { chainId } = useMoralis()
-        console.log("chain id: " + chainId)
-    }
     return (
         <div className="p-0 m-0">
             <Head>

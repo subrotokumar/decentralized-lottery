@@ -6,7 +6,7 @@ export default function Header() {
     <nav className="bg-[#393E46] m-0 p-2">
       <ul class="flex justify-between items-center text-gray-300 font-semibold">
         <li className="flex items-center px-5">
-          <img className="w-7 mr-3 border-white border-2 rounded-full" src="/venus.png" />
+          <img alt="logo" className="w-7 mr-3 border-white border-2 rounded-full" src="/venus.png" />
           <span className="text-[#EEEEEE] text-xl">RAFFLE</span>
         </li>
         <div className="flex justify-between space-x-4 items-center pr-5"> 
